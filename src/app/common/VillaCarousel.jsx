@@ -70,7 +70,7 @@ const carouselContents = [
 const VillaCarousel = () => {
   return (
     <div className="h-screen w-full  flex justify-center items-center overflow-hidden ">
-      <Carousel dotPosition="left">
+      <Carousel dotPosition="left" autoplay>
         {carouselContents.map((e, i) => {
           return <CarouselWrapper key={i} carouselObject={e} />;
         })}
