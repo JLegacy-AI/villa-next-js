@@ -1,11 +1,13 @@
-import Carousel from "./common/Carousel";
+import VillaCarousel from "./common/VillaCarousel";
 import Navbar from "./common/Navbar";
+import FeaturedSection from "./common/FeaturedSection";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Carousel />
+      <VillaCarousel />
+      <FeaturedSection />
     </>
   );
 }
