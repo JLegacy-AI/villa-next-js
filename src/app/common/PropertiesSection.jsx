@@ -8,7 +8,7 @@ import React from "react";
 const PropertyCardInformationBadge = ({ description, value }) => {
   return (
     <>
-      <div className=" text-sm flex justify-between px-2 py-1 bg-teal-900 rounded-md text-center text-white">
+      <div className=" text-sm flex justify-between px-2 py-1 rounded-md text-center text-secondary-text-color">
         <span className="font-medium">{description}:</span>
         <span className="font-bold pl-1">{value}</span>
       </div>
